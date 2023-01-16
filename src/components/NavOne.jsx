@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
-import NavLogoOne from "../assets/nav_logo_1.png"
-import Hamburgermenu from "../assets/nav_hamburger.png"
+import NavLogoOne from "../assets/nav_one.png"
+import Hamburgermenu from "../assets/nav_hamburgericon.png"
 
 
 function NavOne() {
@@ -41,7 +41,7 @@ function NavOne() {
                         {/*button for hamburger icon for mobile navigation*/}
                         <div className="md:hidden flex items-center">
                             <button className="mobile-menu-button" onClick={() => setToggle(!toggle)} >
-                                <img className="w-6 h-6" src={Hamburgermenu} alt="Hamburgericon" />
+                                <img className="h-5" src={Hamburgermenu} alt="Hamburgericon" />
                             </button>
                         </div>
                     </div>
