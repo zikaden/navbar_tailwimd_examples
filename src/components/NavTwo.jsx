@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavTwo = () => {
     return (
-        <div>NavTwo</div>
+        <div>NavTwo in the making</div>
     )
 }
 
