@@ -50,10 +50,10 @@ function NavOne() {
                 {toggle && (
                     <div className="mobile-menu text-center md:hidden">
                         <Link to={`/navtwo`}>
-                            <p className='block text-base py-2 px-2 hover:bg-gray-200'>Nav Two</p>
+                            <p className='block text-base py-2 px-2 hover:bg-gray-600'>Nav Two</p>
                         </Link>
                         <Link to={`/navthree`}>
-                            <p className="block text-base py-2 px-2 hover:bg-gray-200">Nav Three</p>
+                            <p className="block text-base py-2 px-2 hover:bg-gray-600">Nav Three</p>
                         </Link>
                     </div>
                 )}
