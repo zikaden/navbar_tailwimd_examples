@@ -34,7 +34,7 @@ function NavOne() {
                             <Link to={`/navtwo`}>
                                 <p className='py-5 px-3'>Navbar 2</p>
                             </Link>
-                            <Link to={`/navtwo`}>
+                            <Link to={`/navthree`}>
                                 <p className="py-3 px-3 bg-yellow-300 hover:bg-yellow-100 text-yellow-700 hover:text-yellow-600 transistion duration-300 rounded text-bold">Navbar 3</p>
                             </Link>
                         </div>
@@ -57,11 +57,11 @@ function NavOne() {
                         </Link>
                     </div>
                 )}
-            </nav >
+            </nav>
             <div className='text-center py-32'>
                 <div className='text-serif md:text-7xl sm:text-3xl'>Navbar One using Tailwind css!</div>
             </div>
-        </div >
+        </div>
     )
 }
 
