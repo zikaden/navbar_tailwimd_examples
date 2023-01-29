@@ -2,4 +2,4 @@
 
 Follow this link to the webdisplay:https://tailwindnavbars.netlify.app/
 
-![Mockup_Noteworthy](public/2023_01_mockups-01.png)
+![Mockup_Nav01](public/mockup_nav_01-01-01.png)
